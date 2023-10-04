@@ -1,0 +1,30 @@
+Put your Python Code 
+and the story you generated:
+
+import openai
+
+openai.api_key = "xxx"
+completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",messages=[{"role":"user", "content":"tell me a story about a heroic princess worked her loyal friend the Heroic Dragon to protect the Kingdom from evil criminals intend on harming the people."}])
+print(completion.choices[0].message.content)
+
+
+
+Once upon a time in the beautiful Kingdom of Eldoria, there lived a brave and wise princess named Seraphina. Seraphina was known not only for her stunning beauty but also for her incredible bravery and kindness towards her people.
+
+One day, an evil gang of criminals began terrorizing the Kingdom, spreading fear and chaos among the innocent citizens. The criminals had a wicked plan to seize control of the Kingdom and harm the people who lived there. Seraphina, being the selfless princess she was, couldn't bear to see her people suffer.
+
+In her quest to protect the Kingdom, Seraphina sought the help of her loyal and majestic friend, the Heroic Dragon named Drakon. Drakon possessed immense strength and the ability to breathe fire, making him the perfect ally in the fight against evil. Together, they made a formidable team determined to restore peace and prosperity to Eldoria.
+
+Seraphina and Drakon dedicated their time and efforts to devising a plan to counter the criminals' actions. They studied the criminals' patterns, listened to the worries and concerns of the citizens, and strategized to safeguard their beloved Kingdom.
+
+In the darkness of night, Seraphina and Drakon started patrolling the Kingdom, ensuring they were always one step ahead of the criminals. Whenever they spotted any wrongdoing, Seraphina would use her wit and cunning to outsmart the evildoers. Meanwhile, Drakon would let out a fearsome roar, striking terror in the hearts of the criminals, making them flee in panic.
+
+As word spread about the courageous princess and her formidable dragon ally, the people of Eldoria found hope and began to believe that evil could be defeated. They too started helping Seraphina and Drakon by reporting any suspicious activities they came across.
+
+Slowly but steadily, the tide turned in favor of the princess and the heroic dragon. The criminals, intimidated by their strength and determination, soon realized that their evil reign was drawing to an end. Despite this knowledge, they tried to strike back one last time.
+
+In an epic battle between good and evil, the princess and the dragon fought fearlessly against the criminals. With every swing of her sword and fiery blast from Drakon, they vanquished the tormentors of Eldoria. The Kingdom erupted in cheers as the people celebrated their long-awaited victory over darkness.
+
+From that day forward, Princess Seraphina and Drakon continued to protect and serve Eldoria as its revered defenders. The Kingdom thrived under their watchful eyes, and the people lived in peace and happiness.
+
+The heroic princess and her loyal dragon proved that strength and courage, combined with compassion and friendship, can conquer even the darkest forces. Seraphina and Drakon's tale became legend, inspiring generations to be brave and kind, and reminding them that true heroes can be found in the most unexpected places.
